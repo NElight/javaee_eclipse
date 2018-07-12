@@ -1,0 +1,31 @@
+package java0630;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class DataBaseUtil {
+	
+	public static void main(String args[]) {
+		DataBaseUtil util = new DataBaseUtil();
+		Connection connection = util.getConn();
+		System.out.println(connection);
+	}
+	
+	public Connection getConn(){
+		try {
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+			return DriverManager.getConnection("jdbc:oracle:thin:@//192.168.112.174/orcl", "scott", "kingstar");
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return null;
+		}
+	}
+	
+	public Connection getConn(url, username, passwd) {
+		
+		return null;
+	}
+
+}
