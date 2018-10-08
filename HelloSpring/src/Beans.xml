@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/aop 
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+    
+    <!--
+    <aop:config>
+   <aop:aspect id="log" ref="logging">
+      <aop:pointcut id="selectAll" 
+      expression="execution(* com.yzg.Student.*(..))"/>
+      <aop:before pointcut-ref="selectAll" method="beforeAdvice"/>
+      <aop:after pointcut-ref="selectAll" method="afterAdvice"/>
+      <aop:after-returning pointcut-ref="selectAll" 
+                              returning="retVal"
+                              method="afterReturningAdvice"/>
+         <aop:after-throwing pointcut-ref="selectAll" 
+                             throwing="ex"
+                             method="AfterThrowingAdvice"/>
+   </aop:aspect>
+   </aop:config>
+   -->
+   
+   <aop:aspectj-autoproxy/>
+
+   <bean id="helloWorld" class="com.yzg.HelloWorld" scope = "singleton" init-method="init" destroy-method="destroy">
+       <constructor-arg ref="spellChecker"/>
+       <constructor-arg index="1" type="java.lang.String" value="yzg"/>
+       <property name="message" value="Hello World!"/>
+   </bean>
+   
+   <bean id="spellChecker" class= "com.yzg.SpellChecker">
+   </bean>
+   
+   <bean id="customEventHandler" 
+      class="com.yzg.CustomEventHandler"/>
+
+   <bean id="customEventPublisher" 
+      class="com.yzg.CustomEventPublisher"/>
+   
+   <bean class = "com.yzg.InitHelloWorld" />
+   
+   <bean id="student" class="com.yzg.Student">
+      <property name="name"  value="Zara" />
+      <property name="age"  value="11"/>      
+   </bean>
+
+   <!-- Definition for logging aspect -->
+   <bean id="logging" class="com.yzg.Logging"/> 
+   
+   <bean id="loggingAnno" class="com.yzg.LoggingAnno" />
+   
+   <bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+   		<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+   		<property name="url" value="jdbc:mysql://localhost:3306/TEST"/>
+   		<property name="username" value="root"/>
+   		<property name="password" value="kingstar"/>
+	</bean>
+
+</beans>

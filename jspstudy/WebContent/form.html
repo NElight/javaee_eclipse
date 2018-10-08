@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>form</title>
+</head>
+<body>
+
+<form action = "form.jsp" method = "POST">
+First Name :<br/>
+<input type = "text" name = "firstname"/>
+<br>
+Last Name :<br/>
+<input type = "text" name = "lastname"/>
+<br/>
+
+<input type = "radio" name = "sex" value = "male" checked>Male
+<br/>
+<input type = "radio" name = "sex" value = "female">Female
+<br/>
+
+<input type = "submit" value = "submit">
+
+</form>
+
+
+<form action="action_page.php">
+<fieldset>
+<legend>Personal information:</legend>
+First name:<br>
+<input type="text" name="firstname" value="Mickey">
+<br>
+Last name:<br>
+<input type="text" name="lastname" value="Mouse">
+<br><br>
+<input type="submit" value="Submit"></fieldset>
+</form> 
+
+
+<select name="cars">
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value="fiat">Fiat</option>
+<option value="audi">Audi</option>
+</select>
+<br/>
+
+<textarea name="message" rows="10" cols="30">
+The cat was playing in the garden.
+</textarea>
+<br/>
+
+<form action="action_page.php">
+<input list="browsers">
+<datalist id="browsers">
+   <option value="Internet Explorer">
+   <option value="Firefox">
+   <option value="Chrome">
+   <option value="Opera">
+   <option value="Safari">
+</datalist> 
+</form>
+
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+
+
+
+
+
+
+
+</body>
+</html>
