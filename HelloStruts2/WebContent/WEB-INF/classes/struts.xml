@@ -5,11 +5,27 @@
 <struts>
 <constant name="struts.devMode" value="true" />
    <package name="helloworld" extends="struts-default">
+   
+   <interceptors>
+   	<interceptor name="myinterceptor"
+   		class = "com.yzg.struts.MyInterceptor"/>
+   </interceptors>
      
       <action name="hello" 
             class="com.yzg.struts.HelloWorldAction" 
             method="execute">
-            <result name="success">/WEB-INF/HelloWorld.jsp</result>
+            <interceptor-ref name="params"/>
+         	<interceptor-ref name="timer" />
+         	<interceptor-ref name="myinterceptor"/>
+            <result name="success">/WEB-INF/HelloWorld.jsp</result>  
       </action>
+      
+      <action name="upload" class="com.yzg.struts.UploadFile">
+      	<result name="success">/WEB-INF/success.jsp</result>
+      	<result name="error">/WEB-INF/error.jsp</result>
+      </action>
+      
+      
+      
    </package>
 </struts>
