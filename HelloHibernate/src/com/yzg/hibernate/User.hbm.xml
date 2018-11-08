@@ -4,7 +4,7 @@
  "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
 
 <hibernate-mapping>
-   <class name="User" table="USER">
+   <class name="com.yzg.hibernate.User" table="USER">
       <meta attribute="class-description">
          This class contains the USER detail. 
       </meta>
