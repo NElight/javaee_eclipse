@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<!-- namespace:命名空间，对statement的信息进行分类管理 -->
+<!-- 注意：在mapper代理时，它具有特殊及重要的作用 --> 
+ <mapper namespace="test"> 
+ 	<!-- 根据id获取用户信息 -->
+ 	<!-- select: 表示一个MappedStatement对象 --> 
+ 	<!-- id: statement的唯一标示 --> <!-- parameterType: 输入参数的java类型 --> 
+ 	<!-- resultType: 输出结果的所映射的java类型（单条结果所对应的java类型） -->
+ 	<!-- #{id}：里面的id表示输入参数 --> 
+ 	<select id="findUserById" parameterType="int" resultType= "com.yzg.mybatis.User"> 
+ 		select * from user where id = #{id} 
+ 	</select> 
+ 	<!-- 自定义条件查询用户列表 --> 
+ 	<select id="findUserByUsername" parameterType="java.lang.String" resultType="com.yzg.mybatis.User"> 
+ 		select * from user where username like '%${value}%' 
+ 	</select> 
+ 	
+ 	<insert id="insertUser" parameterType="com.yzg.mybatis.User">
+ 		insert into user(id, name, password) values (#{id}, #{name}, #{password})
+ 	</insert>
+ 	
+ 	<delete id="deleteUser" parameterType="int">
+ 		delete from user where id=#{id}
+ 	</delete>
+ 	
+ </mapper>
