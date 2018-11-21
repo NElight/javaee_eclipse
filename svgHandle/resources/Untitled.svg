@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="1320.1616"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-668.161621 -645.000000 1320.161621 1266.000000" height="1266.0"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path fill="none" stroke-width="7.964286"
+              d="M 98.958420,-151.368423 C 122.022957,-211.491241 246.803955,-267.078644 306.926758,-244.014114"
+              class="id_Stegocintractia id_Chaetomium" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="7.853322"
+              d="M 135.420120,83.727997 C 104.173027,-16.121754 207.076996,-212.767029 306.926758,-244.014114"
+              class="id_Spizellomyces id_Chaetomium" stroke-opacity="1.0"
+              stroke="#000afa"/>
+        <path fill="none" stroke-width="3.267857"
+              d="M 374.539978,-1.001794 C 312.414856,-36.081615 271.846924,-181.889008 306.926758,-244.014114"
+              class="id_Scleroramularia id_Chaetomium" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="3.482143"
+              d="M -129.323761,-96.133888 C -71.649696,-212.960037 190.100601,-301.688171 306.926758,-244.014114"
+              class="id_Purpureocillium id_Chaetomium" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="7.928571"
+              d="M 192.891373,576.716431 C 124.442741,557.553345 50.514389,426.135895 69.677444,357.687256"
+              class="id_Gibellulopsis id_Thielavia" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="8.801445"
+              d="M 544.111450,269.256836 C 466.910736,381.829742 182.250320,434.887970 69.677444,357.687256"
+              class="id_Sphaerodes id_Thielavia" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="7.48436"
+              d="M -38.568310,599.155396 C -65.212784,529.212585 -0.265339,384.331757 69.677444,357.687256"
+              class="id_Leucangium id_Thielavia" stroke-opacity="1.0"
+              stroke="#000afa"/>
+        <path fill="none" stroke-width="3.1992865"
+              d="M -363.631104,-119.029106 C -258.041626,-120.787529 -97.019699,34.959091 -95.261276,140.548599"
+              class="id_Metarhizium id_Mortierella" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="3.294551"
+              d="M -38.568310,599.155396 C -141.628265,518.772644 -175.644043,243.608551 -95.261276,140.548599"
+              class="id_Leucangium id_Mortierella" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="3.2737083"
+              d="M 544.111450,269.256836 C 513.027283,210.644836 554.319153,76.100670 612.931152,45.016548"
+              class="id_Sphaerodes id_Gibberella" stroke-opacity="1.0"
+              stroke="#000afa"/>
+        <path fill="none" stroke-width="3.4107144"
+              d="M 374.539978,-1.001794 C 431.421875,-39.476364 574.456604,-11.865356 612.931152,45.016548"
+              class="id_Scleroramularia id_Gibberella" stroke-opacity="1.0"
+              stroke="#000afa"/>
+        <path fill="none" stroke-width="3.1216457"
+              d="M -363.631104,-119.029106 C -371.258789,-194.944153 -268.827789,-320.258270 -192.912735,-327.885956"
+              class="id_Metarhizium id_Scedosporium" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="3.5031292"
+              d="M 52.013081,-382.303375 C 13.911404,-322.434723 -133.044098,-289.784271 -192.912735,-327.885956"
+              class="id_Kernia id_Scedosporium" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="3.1188574"
+              d="M 98.958420,-151.368423 C 5.280685,-128.297699 -169.842010,-234.208221 -192.912735,-327.885956"
+              class="id_Stegocintractia id_Scedosporium" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="7.1172814"
+              d="M 264.086151,-533.900574 C 213.889297,-401.297882 -60.310024,-277.689087 -192.912735,-327.885956"
+              class="id_Madurella id_Scedosporium" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="3.386954"
+              d="M -195.370193,-575.908752 C -145.274155,-526.795715 -143.799667,-377.981995 -192.912735,-327.885956"
+              class="id_Gymnoascus id_Scedosporium" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="7.5245786"
+              d="M -129.323761,-96.133888 C -188.391968,-129.766510 -226.545364,-268.817749 -192.912735,-327.885956"
+              class="id_Purpureocillium id_Scedosporium" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="3.0035822"
+              d="M -405.736786,-454.052673 C -337.938629,-471.384155 -210.244202,-395.684113 -192.912735,-327.885956"
+              class="id_Stephanonectria id_Scedosporium" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="8.310995"
+              d="M -581.404724,191.791733 C -600.014160,86.072838 -469.349976,-100.419662 -363.631104,-119.029106"
+              class="id_Trichoderma id_Metarhizium" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="3.5210023"
+              d="M 98.958420,-151.368423 C 12.908377,-52.382652 -264.645325,-32.979065 -363.631104,-119.029106"
+              class="id_Stegocintractia id_Metarhizium" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="7.613944"
+              d="M -129.323761,-96.133888 C -180.764267,-53.851460 -321.348663,-67.588593 -363.631104,-119.029106"
+              class="id_Purpureocillium id_Metarhizium" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="7.25"
+              d="M -581.404724,191.791733 C -668.161621,92.667656 -649.610779,-186.153732 -550.486694,-272.910583"
+              class="id_Trichoderma id_Fusarium" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="3.3094866"
+              d="M -191.199158,350.317993 C -166.245773,410.128418 -218.531326,537.274170 -278.341766,562.227539"
+              class="id_Ulkenomyces id_Microascus" stroke-opacity="1.0"
+              stroke="#000afa"/>
+        <path fill="none" stroke-width="3.4107144"
+              d="M 467.085999,-413.062653 C 390.223267,-323.896210 141.179520,-305.440643 52.013081,-382.303375"
+              class="id_Wardomyces id_Kernia" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="7.3166485"
+              d="M 264.086151,-533.900574 C 251.990982,-461.166534 124.747139,-370.208191 52.013081,-382.303375"
+              class="id_Madurella id_Kernia" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="7.321429"
+              d="M -195.370193,-575.908752 C -107.172462,-586.664307 41.257504,-470.501099 52.013081,-382.303375"
+              class="id_Gymnoascus id_Kernia" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="3.4107144"
+              d="M -129.323761,-96.133888 C -150.290298,-189.635162 -41.488197,-361.336823 52.013081,-382.303375"
+              class="id_Purpureocillium id_Kernia" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="3.527318"
+              d="M -458.042084,391.391632 C -487.880920,316.620728 -420.482819,159.706161 -345.711914,129.867340"
+              class="id_Heydenia id_Scopulariopsis" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="3.1037617"
+              d="M 135.420120,83.727997 C 48.421585,189.182266 -240.257629,216.865875 -345.711914,129.867340"
+              class="id_Spizellomyces id_Scopulariopsis" stroke-opacity="1.0"
+              stroke="#000afa"/>
+        <path fill="none" stroke-width="3.0892856"
+              d="M -129.323761,-96.133888 C -127.401154,-7.656013 -257.234039,127.944733 -345.711914,129.867340"
+              class="id_Purpureocillium id_Scopulariopsis" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="7.192828"
+              d="M -458.042084,391.391632 C -412.888214,329.808319 -252.782471,305.164124 -191.199158,350.317993"
+              class="id_Heydenia id_Ulkenomyces" stroke-opacity="1.0"
+              stroke="#000afa"/>
+        <path fill="none" stroke-width="3.026907"
+              d="M -38.568310,599.155396 C -118.861969,579.914124 -210.440475,430.611633 -191.199158,350.317993"
+              class="id_Leucangium id_Ulkenomyces" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="3.145667"
+              d="M 298.099243,253.101013 C 341.780762,338.865662 278.656036,533.034912 192.891373,576.716431"
+              class="id_Cleistothelebolus id_Gibellulopsis" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="8.3184395"
+              d="M 544.111450,269.256836 C 535.359375,400.992767 324.627289,585.468506 192.891373,576.716431"
+              class="id_Sphaerodes id_Gibellulopsis" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="7.9677997"
+              d="M -38.568310,599.155396 C 3.235836,548.375671 142.111633,534.912292 192.891373,576.716431"
+              class="id_Leucangium id_Gibellulopsis" stroke-opacity="1.0"
+              stroke="#000afa"/>
+        <path fill="none" stroke-width="3.125"
+              d="M 98.958420,-151.368423 C 120.245094,-277.332794 341.121643,-434.349335 467.085999,-413.062653"
+              class="id_Stegocintractia id_Wardomyces" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="3.0858727"
+              d="M 264.086151,-533.900574 C 328.853699,-550.332947 450.653595,-477.830200 467.085999,-413.062653"
+              class="id_Madurella id_Wardomyces" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="7.214286"
+              d="M 374.539978,-1.001794 C 376.715759,-79.151688 497.204224,-193.112854 575.354126,-190.937088"
+              class="id_Scleroramularia id_Aspergillus" stroke-opacity="1.0"
+              stroke="#000afa"/>
+        <path fill="none" stroke-width="3.0679834"
+              d="M -405.736786,-454.052673 C -311.701477,-289.750214 -417.102234,97.756439 -581.404724,191.791733"
+              class="id_Stephanonectria id_Trichoderma" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="7.316637"
+              d="M 298.099243,253.101013 C 362.102112,275.956604 423.823090,406.244324 400.967499,470.247192"
+              class="id_Cleistothelebolus id_Balansia" stroke-opacity="1.0"
+              stroke="#000afa"/>
+        <path fill="none" stroke-width="3.255819"
+              d="M 264.086151,-533.900574 C 307.567047,-424.368591 208.490387,-194.849304 98.958420,-151.368423"
+              class="id_Madurella id_Stegocintractia" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="3.3899875"
+              d="M 135.420120,83.727997 C 81.108490,44.001053 59.231480,-97.056793 98.958420,-151.368423"
+              class="id_Spizellomyces id_Stegocintractia" stroke-opacity="1.0"
+              stroke="#000afa"/>
+        <path fill="none" stroke-width="3.5"
+              d="M -195.370193,-575.908752 C -51.596397,-549.866394 125.000763,-295.142212 98.958420,-151.368423"
+              class="id_Gymnoascus id_Stegocintractia" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="3.25"
+              d="M 374.539978,-1.001794 C 289.350342,24.041189 124.001411,-66.178787 98.958420,-151.368423"
+              class="id_Scleroramularia id_Stegocintractia" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="9.178572"
+              d="M -129.323761,-96.133888 C -94.714233,-152.837234 42.255074,-185.977951 98.958420,-151.368423"
+              class="id_Purpureocillium id_Stegocintractia" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="8.681618"
+              d="M -38.568310,599.155396 C 11.987938,416.639709 361.595795,218.700592 544.111450,269.256836"
+              class="id_Leucangium id_Sphaerodes" stroke-opacity="1.0"
+              stroke="#000afa"/>
+        <path fill="none" stroke-width="7.3345375"
+              d="M -129.323761,-96.133888 C -138.195114,-262.369202 97.850838,-525.029236 264.086151,-533.900574"
+              class="id_Purpureocillium id_Madurella" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+        <path fill="none" stroke-width="3.3542092"
+              d="M -129.323761,-96.133888 C -40.402611,-113.110291 118.443718,-5.193153 135.420120,83.727997"
+              class="id_Purpureocillium id_Spizellomyces" stroke-opacity="1.0"
+              stroke="#000afa"/>
+        <path fill="none" stroke-width="3.357143"
+              d="M -129.323761,-96.133888 C -238.488037,-178.879578 -278.115875,-466.744476 -195.370193,-575.908752"
+              class="id_Purpureocillium id_Gymnoascus" stroke-opacity="1.0"
+              stroke="#ff0532"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#00c4ff" r="100.0" cx="306.92676"
+                class="id_Chaetomium" cy="-244.01411" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00c4ff" r="66.45821" cx="69.677444"
+                class="id_Thielavia" cy="357.68726" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ff7ad6" r="37.630043" cx="-95.26128"
+                class="id_Mortierella" cy="140.5486" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#df89ff" r="37.902344" cx="612.93115"
+                class="id_Gibberella" cy="45.01655" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#73c000" r="37.723938" cx="-192.91273"
+                class="id_Scedosporium" cy="-327.88596" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#df89ff" r="36.392487" cx="-363.6311"
+                class="id_Metarhizium" cy="-119.029106" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#df89ff" r="35.49859" cx="-550.4867"
+                class="id_Fusarium" cy="-272.91058" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#73c000" r="31.092955" cx="-278.34177"
+                class="id_Microascus" cy="562.22754" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#73c000" r="29.109856" cx="52.01308"
+                class="id_Kernia" cy="-382.30338" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#73c000" r="28.266663" cx="-345.7119"
+                class="id_Scopulariopsis" cy="129.86734" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00bd94" r="28.289196" cx="-191.19916"
+                class="id_Ulkenomyces" cy="350.318" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000afa" r="25.938025" cx="192.89137"
+                class="id_Gibellulopsis" cy="576.71643" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#73c000" r="26.345537" cx="467.086"
+                class="id_Wardomyces" cy="-413.06265" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bc00f5" r="25.023472" cx="575.3541"
+                class="id_Aspergillus" cy="-190.93709" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#df89ff" r="25.44225" cx="-581.4047"
+                class="id_Trichoderma" cy="191.79173" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#df89ff" r="25.391544" cx="400.9675"
+                class="id_Balansia" cy="470.2472" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#df89ff" r="23.410326" cx="39.76262"
+                class="id_Acremonium" cy="-620.6685" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00940f" r="23.233799" cx="-606.83484"
+                class="id_Monographella" cy="-37.87613" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#4c463e" r="22.253517" cx="298.09924"
+                class="id_Cleistothelebolus" cy="253.10101" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#d3b3b0" r="21.864782" cx="98.95842"
+                class="id_Stegocintractia" cy="-151.36842" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#d1eb00" r="21.6338" cx="544.11145"
+                class="id_Sphaerodes" cy="269.25684" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00c4ff" r="20.0" cx="264.08615"
+                class="id_Madurella" cy="-533.9006" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ff5584" r="21.117374" cx="-458.04208"
+                class="id_Heydenia" cy="391.39163" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#4c463e" r="21.566195" cx="-38.56831"
+                class="id_Leucangium" cy="599.1554" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ff8805" r="21.579338" cx="135.42012"
+                class="id_Spizellomyces" cy="83.728" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#8f006b" r="21.222532" cx="-195.3702"
+                class="id_Gymnoascus" cy="-575.90875" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00c4ff" r="21.047884" cx="374.53998"
+                class="id_Scleroramularia" cy="-1.0017942" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#df89ff" r="20.969007" cx="-129.32376"
+                class="id_Purpureocillium" cy="-96.13389" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#df89ff" r="20.92582" cx="-405.7368"
+                class="id_Stephanonectria" cy="-454.05267" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+    </g>
+    <g id="node-labels">
+        <text font-size="36" x="306.92676" y="-237.34908" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Chaetomium">
+            Chaetomium
+        </text>
+        <text font-size="36" x="69.677444" y="364.2351" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Thielavia">
+            Thielavia
+        </text>
+        <text font-size="36" x="-95.26128" y="147.09645" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Mortierella">
+            Mortierella
+        </text>
+        <text font-size="36" x="612.93115" y="51.681587" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Gibberella">
+            Gibberella
+        </text>
+        <text font-size="36" x="-192.91273" y="-319.5422" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Scedosporium">
+            Scedosporium
+        </text>
+        <text font-size="36" x="-363.6311" y="-112.481255" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Metarhizium">
+            Metarhizium
+        </text>
+        <text font-size="36" x="-550.4867" y="-266.36273" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Fusarium">
+            Fusarium
+        </text>
+        <text font-size="36" x="-278.34177" y="568.7754" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Microascus">
+            Microascus
+        </text>
+        <text font-size="36" x="52.01308" y="-375.75552" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Kernia">
+            Kernia
+        </text>
+        <text font-size="36" x="-345.7119" y="138.21109" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Scopulariopsis">
+            Scopulariopsis
+        </text>
+        <text font-size="36" x="-191.19916" y="358.65588" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Ulkenomyces">
+            Ulkenomyces
+        </text>
+        <text font-size="36" x="192.89137" y="585.0602" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Gibellulopsis">
+            Gibellulopsis
+        </text>
+        <text font-size="36" x="467.086" y="-404.72476" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Wardomyces">
+            Wardomyces
+        </text>
+        <text font-size="36" x="575.3541" y="-182.5992" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Aspergillus">
+            Aspergillus
+        </text>
+        <text font-size="36" x="-581.4047" y="198.33958" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Trichoderma">
+            Trichoderma
+        </text>
+        <text font-size="36" x="400.9675" y="476.79504" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Balansia">
+            Balansia
+        </text>
+        <text font-size="36" x="39.76262" y="-614.12067" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Acremonium">
+            Acremonium
+        </text>
+        <text font-size="36" x="-606.83484" y="-29.538239" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Monographella">
+            Monographella
+        </text>
+        <text font-size="36" x="298.09924" y="259.76605" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Cleistothelebolus">
+            Cleistothelebolus
+        </text>
+        <text font-size="36" x="98.95842" y="-142.9192" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Stegocintractia">
+            Stegocintractia
+        </text>
+        <text font-size="36" x="544.11145" y="277.6006" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Sphaerodes">
+            Sphaerodes
+        </text>
+        <text font-size="36" x="264.08615" y="-527.3527" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Madurella">
+            Madurella
+        </text>
+        <text font-size="36" x="-458.04208" y="399.72952" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Heydenia">
+            Heydenia
+        </text>
+        <text font-size="36" x="-38.56831" y="607.4933" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Leucangium">
+            Leucangium
+        </text>
+        <text font-size="36" x="135.42012" y="92.177216" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Spizellomyces">
+            Spizellomyces
+        </text>
+        <text font-size="36" x="-195.3702" y="-567.45953" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Gymnoascus">
+            Gymnoascus
+        </text>
+        <text font-size="36" x="374.53998" y="5.6632447" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Scleroramularia">
+            Scleroramularia
+        </text>
+        <text font-size="36" x="-129.32376" y="-87.90147" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Purpureocillium">
+            Purpureocillium
+        </text>
+        <text font-size="36" x="-405.7368" y="-445.70892" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Stephanonectria">
+            Stephanonectria
+        </text>
+    </g>
+</svg>

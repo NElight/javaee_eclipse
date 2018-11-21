@@ -14,11 +14,13 @@ import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+
 import org.apache.batik.dom.svg.SAXSVGDocumentFactory;
 import org.apache.batik.dom.svg.SVGDOMImplementation;
 import org.apache.batik.util.XMLResourceDescriptor;
 import org.w3c.dom.DOMImplementation;
 import org.w3c.dom.Document;
+import org.w3c.dom.Element;
 
 public class AddLegendTool {
 	
@@ -61,6 +63,12 @@ public class AddLegendTool {
 			e.printStackTrace();
 		}
 		System.out.println(legendList);
+		
+		Element element = document.getDocumentElement();
+		String width = element.getAttribute("width");
+		String height = element.getAttribute("height");
+		System.out.println(width + "\t" + height);
+		
 		return document;
 	}
 	
