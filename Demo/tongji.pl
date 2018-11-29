@@ -101,6 +101,7 @@ $am_daka_key = "am_daka";
 $pm_daka_key = "pm_daka";
 $am_chidao_key = "am_chidao";
 $pm_zaotui_key = "pm_zaotui";
+$liwai_key = "liwai";
 
 open IN, "<", $infile;
 <IN>;
@@ -115,11 +116,11 @@ while(<IN>){
 	
 	$rel -> {$p_name} -> {$am_pm} -> {$total_key} ++;
 	
-	if ($contents[5]){
+	if ($contents[5] || ($contents[10] && $contents[11])){
 		$rel -> {$p_name} -> {$am_pm} -> {$am_daka_key} ++;
 	}
 	
-	if ($contents[6]){
+	if ($contents[6] || ($contents[10] && $contents[11])){
 		$rel -> {$p_name} -> {$am_pm} -> {$pm_daka_key} ++;
 	}
 	
@@ -130,10 +131,14 @@ while(<IN>){
 	if ($contents[8]){
 		$rel -> {$p_name} -> {$am_pm} -> {$pm_zaotui_key} ++;
 	}
+	
+	if ($contents[10] && $contents[11]){
+		$rel -> {$p_name} -> {$am_pm} -> {$liwai_key} ++;
+	}
 }
 
 print "姓名" . "\t" . "早上应打卡总次数" . "\t" . "早上实际打卡次数" . "\t" . "迟到次数" . "\t" . "下午应打卡总次数" . "\t" . "下午实际打卡次数" . "\t"
-. "早退次数" . "\t" . "早上打卡率(%)" . "\t" . "下午打卡率(%)" . "\t" . "迟到率(%) " . "\t" . "早退率(%)" . "\n";
+. "早退次数" . "\t" . "早上打卡率(%)" . "\t" . "下午打卡率(%)" . "\t" . "迟到率(%) " . "\t" . "早退率(%)" . "\t" . "早上例外次数" . "\t" . "下午例外次数" . "\n";
 #foreach (keys %{$rel}){
 #	my $zaoshang_total = $rel->{$_} -> {"上午"} -> {$total_key} || 0;
 #	my $zaoshang_daka = $rel -> {$_} -> {"上午"} -> {$am_daka_key} || 0;
@@ -150,6 +155,9 @@ print "姓名" . "\t" . "早上应打卡总次数" . "\t" . "早上实际打卡�
 $bumen_tongji = {};
 
 foreach my $bumen (@bumenshunxu){
+	if ($bumen ne '检务保障团队'){
+		next;
+	}
 	my @temp_renyuan = @{$renyuan->{$bumen}};
 	
 	my $lower_level_am = 0;
@@ -164,17 +172,19 @@ foreach my $bumen (@bumenshunxu){
 		my $zaoshang_total = $rel->{$_} -> {"上午"} -> {$total_key} || 0;
 		my $zaoshang_daka = $rel -> {$_} -> {"上午"} -> {$am_daka_key} || 0;
 		my $zaoshang_chidao = $rel -> {$_} -> {"上午"} -> {$am_chidao_key} || 0;
+		my $zaoshang_liwai = $rel -> {$_} -> {"上午"} -> {$liwai_key} || 0;
 		my $xiawu_total = $rel->{$_} -> {"下午"} -> {$total_key} || 0;
 		my $xiawu_daka = $rel -> {$_} -> {"下午"} -> {$pm_daka_key} || 0;
 		my $xiawu_zaotui = $rel -> {$_} -> {"下午"} -> {$pm_zaotui_key} || 0;
+		my $xiawu_liwai = $rel -> {$_} -> {"下午"} -> {$liwai_key} || 0;
 		my $zaoshang_daka_lv = $zaoshang_daka / $zaoshang_total * 100;
 		my $xiawu_daka_lv = $xiawu_daka / $xiawu_total * 100;
 		my $zaoshang_chidao_lv = $zaoshang_chidao / $zaoshang_total * 100;
 		my $xiawu_zaotui_lv = $xiawu_zaotui / $xiawu_total * 100;
-		print $_ . "\t" . $zaoshang_total . "\t" . $zaoshang_daka . "\t" . $zaoshang_chidao . "\t"
-		. $xiawu_total . "\t" . $xiawu_daka . "\t" . $xiawu_zaotui . "\t" . $zaoshang_daka_lv . "\t"
+		print $_ . "\t" . $zaoshang_total . "\t" . ($zaoshang_daka - $zaoshang_liwai) . "\t" . $zaoshang_chidao . "\t"
+		. $xiawu_total . "\t" . ($xiawu_daka - $xiawu_liwai) . "\t" . $xiawu_zaotui . "\t" . $zaoshang_daka_lv . "\t"
 		. $xiawu_daka_lv . "\t" . $zaoshang_chidao_lv . "\t" 
-		. $xiawu_zaotui_lv . "\n";
+		. $xiawu_zaotui_lv . "\t" . "$zaoshang_liwai" . "\t" . "$xiawu_liwai" . "\n";
 		
 		
 		$total_person += 1;
@@ -209,6 +219,9 @@ print "部门名称" . "\t" ."人数" . "\t" . "上午打卡(<60%)"  . "\t".
 "人数" . "\t" . "上午打卡(>60%,<80%)" . "\t". "人数" . "\t" . "上午打卡(>80%)" . "\t" .
 "人数" . "\t" . "下午打卡(<60%)"  . "\t". "人数" . "\t" ."下午打卡(>60%,<80%)" . "\t". "人数" . "\t" . "下午打卡(>80%)". "\n";
 foreach my $bumen (@bumenshunxu){
+	if ($bumen ne '检务保障团队'){
+		next;
+	}
 	my @temp = @{$bumen_tongji -> {$bumen}};
 	print $bumen . "\t";
 	print join "\t", @temp;
