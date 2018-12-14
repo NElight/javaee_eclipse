@@ -1,5 +1,7 @@
 package com.yzg.svgHandle;
 
+import java.awt.Font;
+import java.awt.FontMetrics;
 import java.awt.Graphics2D;
 import java.awt.List;
 import java.awt.Rectangle;
@@ -15,12 +17,18 @@ import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.UnsupportedEncodingException;
 import java.io.Writer;
+import java.lang.reflect.Array;
 import java.lang.reflect.Field;
 import java.net.URI;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import javax.sql.RowSetInternal;
+import javax.sql.rowset.WebRowSet;
+import javax.sql.rowset.spi.XmlWriter;
 
 import org.apache.batik.dom.GenericDOMImplementation;
 import org.apache.batik.dom.svg.SAXSVGDocumentFactory;
@@ -32,6 +40,7 @@ import org.apache.batik.transcoder.TranscoderInput;
 import org.apache.batik.transcoder.TranscoderOutput;
 import org.apache.batik.transcoder.image.JPEGTranscoder;
 import org.apache.batik.util.XMLResourceDescriptor;
+import org.omg.PortableServer.IMPLICIT_ACTIVATION_POLICY_ID;
 import org.w3c.dom.DOMImplementation;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -83,8 +92,12 @@ public class AddLegendTool {
 		System.out.println(legendList);
 		
 		
-		handleTree(document);
+		handleTree(document, legendList);
 		System.out.println(document.toString());
+		System.out.println(document.getTextContent().toString());
+		
+		
+		
 		
 		
 		
@@ -113,14 +126,42 @@ public class AddLegendTool {
 		return document;
 	}
 	
-	public void handleTree(Document document) {
+	public void handleTree(Document document, ArrayList<ArrayList<String>> legendList) {
 		Element svgRoot = document.getDocumentElement();
 		String width = svgRoot.getAttribute("width");
 		String height = svgRoot.getAttribute("height");
-		System.out.println(width + "\t" + height);
-		svgRoot.setAttributeNS(null, "width", String.valueOf(Float.parseFloat(width) + 500));
-		
+		String viewBoxAttr = svgRoot.getAttribute("viewBox");
 		Element legendGroup = document.createElement("g");
+		String[] viewboxattrs = viewBoxAttr.split(" ");
+		
+		double viewBox_x = Double.parseDouble(viewboxattrs[0]);
+		double viewBox_y = Double.parseDouble(viewboxattrs[1]);
+		double viewBox_w = Double.parseDouble(viewboxattrs[2]);
+		double viewBox_h = Double.parseDouble(viewboxattrs[3]);
+		
+		double newViewBox_w = viewBox_w + 800;
+		
+		svgRoot.setAttribute("viewBox", String.valueOf(viewBox_x - 100) + " " + String.valueOf(viewBox_y) + " " + String.valueOf(newViewBox_w)
+		+" " + String.valueOf(viewBox_h));
+		
+		double legend_start_x = viewBox_x + viewBox_w;
+		double legend_start_y = viewBox_y + 20;
+		for (int i = 0; i < legendList.size(); i++) {
+			Element textE = document.createElement("text");
+			textE.setAttribute("x", String.valueOf(legend_start_x));
+			textE.setAttribute("y", String.valueOf(legend_start_y));
+			textE.setAttribute("full", "red");
+			textE.setNodeValue(legendList.get(i).get(0));
+			legend_start_y += 20;
+			legendGroup.appendChild(textE);
+		}
+		
+		
+		
+		System.out.println(width + "\t" + height);
+		svgRoot.setAttributeNS(null, "width", String.valueOf(Float.parseFloat(width) + 400));
+		
+		
 		svgRoot.appendChild(legendGroup);
 		
 		
@@ -166,7 +207,12 @@ public class AddLegendTool {
 		return new ArrayList<String>(Arrays.asList(sep));
 	}
 	
-	
+	public double[] getFontSize(String fontName,int fontType, int fontSize, String content) {
+		Font font = new Font(fontName, fontType, fontSize);
+		FontMetrics fMetrics = sun.font.FontDesignMetrics.getMetrics(font);
+		return new double[]{fMetrics.stringWidth(content), fMetrics.getHeight()};
+		
+	}
 	
 	
 
