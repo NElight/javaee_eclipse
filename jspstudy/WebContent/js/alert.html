@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>js alert</title>
+</head>
+<body>
+	
+	<script type="text/javascript">
+		function theAlert(text) {
+			alert(text);
+		}
+	</script>
+	
+	
+	<script type="text/javascript">
+		document.write("<h1> THIS IS HEADING</h1>");
+		document.write("<p> this is paragraph</p>");
+	</script>
+
+	<p id="message">this page will alert message</p>
+	<button type="button" onclick="theAlert('click button')">点击弹出</button>
+	<button type="button" onclick="changeMessage('js change message')">点击改变内容</button>
+	
+	<script type="text/javascript">
+		function changeMessage(text) {
+			x=document.getElementById("message");
+			x.innerHTML=text;
+		}
+	</script>
+	<br/>
+	<img id="myImage" src="http://www.w3school.com.cn/i.eg_bulboff.gif" onclick="changeImage()"></img>
+	<script type="text/javascript">
+		function changeImage(){
+			element = document.getElementById('myImage')
+			if (element.src.match("bulbon")){
+				element.src="http://www.w3school.com.cn/i/eg_bulboff.gif";
+			}else {
+				element.src="http://www.w3school.com.cn/i/eg_bulbon.gif";
+			}
+		}
+	</script>
+	<br/>
+	<button type="button" onclick="myFunc()">点击这里</button>
+	<script type="text/javascript">
+		function myFunc(){
+			document.write("糟糕，文档消失了！");
+		}
+	</script>
+	
+	<script type="text/javascript">
+		var time = new Date();
+		document.write("time:" + time);
+		
+	</script>
+	
+	<script type="text/javascript">
+		setTimeout(() => {
+			alert("5 seconds end");
+		}, 5000);
+	</script>
+</body>
+</html>
