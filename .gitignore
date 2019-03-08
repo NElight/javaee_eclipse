@@ -1,2 +1,6 @@
 /.metadata/
 /.recommenders/
+
+*.jar
+lxxt/*
+lxxt-hbdx/*

@@ -11,5 +11,11 @@
 	<classpathentry kind="lib" path="D:/用户目录/下载/poi-bin-4.0.1-20181203/poi-4.0.1/ooxml-lib/xmlbeans-3.0.2.jar"/>
 	<classpathentry kind="lib" path="D:/用户目录/下载/poi-bin-4.0.1-20181203/poi-4.0.1/lib/commons-collections4-4.2.jar"/>
 	<classpathentry kind="lib" path="D:/用户目录/下载/poi-bin-4.0.1-20181203/poi-4.0.1/lib/commons-compress-1.18.jar"/>
+	<classpathentry kind="lib" path="D:/用户目录/下载/quartz-2.3.0-distribution/quartz-2.3.0-SNAPSHOT/lib/c3p0-0.9.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/用户目录/下载/quartz-2.3.0-distribution/quartz-2.3.0-SNAPSHOT/lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="D:/用户目录/下载/quartz-2.3.0-distribution/quartz-2.3.0-SNAPSHOT/lib/quartz-jobs-2.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="D:/用户目录/下载/quartz-2.3.0-distribution/quartz-2.3.0-SNAPSHOT/lib/slf4j-api-1.7.7.jar"/>
+	<classpathentry kind="lib" path="D:/用户目录/下载/quartz-2.3.0-distribution/quartz-2.3.0-SNAPSHOT/lib/slf4j-log4j12-1.7.7.jar"/>
+	<classpathentry kind="lib" path="D:/用户目录/下载/quartz-2.3.0-distribution/quartz-2.3.0-SNAPSHOT/lib/quartz-2.3.0-SNAPSHOT.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
